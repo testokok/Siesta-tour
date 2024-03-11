@@ -1,0 +1,302 @@
+*{
+   box-sizing: border-box; 
+}
+body{
+    color: #212529;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+h3{
+    font-size: 1.2rem;
+}
+
+/*---Top menu---*/
+
+.navbar a{
+    font-size: 16px;
+}
+.navbar a.navbar-brand{
+    font-size: 20px;
+}
+
+/*---End of top menu---*/
+
+
+
+/*---Form search---*/
+
+.form-search{
+    background-color: #f9fbfc;
+}
+.form {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+/*---End of Form search---*/
+
+
+
+/*---Slider---*/
+.carousel-caption{
+    color: #fff !important;
+    text-shadow: 1px 1px black;
+}
+.carousel-caption{
+    top: 1.25rem;
+}
+/*---End of slider---*/
+
+
+
+/*---Our Services section---*/
+.section-title {
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: #1A374D;
+}
+.section-title:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background: #1A374D;
+}
+.feature-img-bg{
+    background-image: url(img/slider4.jpg);
+    border-radius: 20px;
+    background-size: cover;
+}
+.feature-1 {
+    padding: 30px;
+    background: rgba(26, 55, 77, 0.05);
+    border-radius: 20px;
+    min-height: calc(50% - 15px);
+    top: 0;
+    margin-bottom: 30px !important;
+}
+.text-primary {
+    color: #1A374D !important;
+}
+.feature-1 h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.flaticon-plane:before {
+    content: "\f102";
+    font-family: Flaticon;
+}
+
+/*---End of Our Services section---*/
+
+
+
+/*---Popular Destination section---*/
+img.card-img-top{
+    z-index: 1;
+    position: relative;
+}
+a.img_popular{
+    z-index: 3;
+    position: relative;
+}
+.img_popular{
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+.card a:hover{
+    transition: .3s all ease;
+    z-index: 3;
+}
+/*---End of Popular Destination section---*/
+
+
+/*---Testimonials---*/
+
+.accordion-button{
+    background: #f8f9fa !important;
+}
+.accordion-item{
+    color: #1A374D !important;
+}
+
+/*---End of Testimonials---*/
+
+
+
+/*---Special Offers & Discounts---*/
+
+.mr-3, .mx-3 {
+    margin-right: 1rem !important;
+}
+.media-1 .loc .icon-room {
+    position: relative;
+}
+.media-1 .loc .icon-room:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: rgba(26, 55, 77, 0.1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.media-1 img {
+    border-radius: 20px;
+}
+.media-1 h3 a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1A374D;
+    text-decoration: none;
+}
+.media-1 .price{
+    font-size: 15px;
+    color: #1A374D;
+    font-weight: 700;
+}
+
+/*---End of Special Offers & Discounts---*/
+
+
+
+/*---Contact Us---*/
+
+.cta-section {
+    background: #1A374D;
+}
+.btn.btn-outline-white {
+    border: 2px solid #ffffff;
+    font-weight: 700;
+}
+a.btn.btn-outline-white:hover{
+    background-color: #fff;
+    color: #1A374D !important;
+    transition: .3s all ease;
+}
+
+/*---End of Contact Us---*/
+
+
+
+/*---Footer---*/
+
+.site-footer {
+    background-color: #f8f9fa;
+    color: #777;
+    line-height: 1.6;
+}
+.site-footer a{
+    color: #000;
+    text-decoration: none;
+}
+.site-footer a:hover{
+    text-decoration: underline;
+}
+.site-footer .inner.first {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.site-footer .widget .social li {
+    display: inline-block;
+}
+.site-footer .widget .social li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1A374D;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    box-shadow: 0 5px 10px -2px #1A374D;
+}
+.site-footer .widget .social li a:hover{
+    opacity: 0.5;
+    transition: .3s all ease;
+}
+.site-footer .widget .social li a span {
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+.icon-dribbble:before {
+    content: "\f17d";
+}
+.icon-pinterest:before {
+    content: "\f0d2";
+}
+.icon-apple:before {
+    content: "\f179";
+}
+.icon-google:before {
+    content: "\f1a0";
+}
+
+.site-footer ul.quick-info li {
+    position: relative;
+    padding-left: 30px;
+}
+.site-footer ul.quick-info li:before {
+    left: 0;
+    position: absolute;
+    content: "";
+    font-family: 'icomoon';
+    color: #6998AB;
+}
+.site-footer ul.quick-info li.email:before {
+    content: "\f0e0";
+}
+.site-footer ul.quick-info li.phone:before {
+    content: "\f095";
+}
+.site-footer ul.quick-info li.address:before {
+    content: "\e8b4";
+}
+
+/*---End of Footer---*/
+
+@media (min-width: 768px) {
+    .carousel{
+        max-height: 450px;
+        overflow: hidden;
+    }
+}
+@media (min-width: 992px) {
+    .carousel{
+        max-height: 570px;
+        overflow: hidden;
+    }
+
+}
+@media (max-width: 768px) {
+    .carousel-caption{
+        display: block !important;
+    }
+}
+
